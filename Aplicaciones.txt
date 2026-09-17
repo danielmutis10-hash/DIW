@@ -1,0 +1,4 @@
+Aplicaciones a usar generalmente
+Figma
+Bootstrap
+Moqups
