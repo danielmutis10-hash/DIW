@@ -26,7 +26,7 @@ function iniciarJuego()
 
             if(userNum === secretNum)
             {
-                alert('Felicidades!\nHaz acertado con el número secreto en el ',tries,' intento');
+                alert('Felicidades!\nHaz acertado con el número secreto en el ${tries} intento');
                 trying = true;
             } else if (userNum < secretNum)
             {
