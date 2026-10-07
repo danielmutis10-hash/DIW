@@ -1,0 +1,55 @@
+/* --- SELECTORES: ID Y CLASE --- */
+
+/* Selector de ID: único en toda la página, empieza por # */
+#titulo-principal {
+  color: darkslateblue;
+  background-color: lavender;
+  border: 3px solid darkslateblue;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Selector de clase: reutilizable, empieza por . */
+.lista-lenguajes {
+  background-color: #f4f7f1;
+  padding: 1rem 1.5rem;
+  width: 90%;
+  max-width: 18.75rem;
+  margin: 0 auto;
+}
+
+/* Estilo base COMPARTIDO por todos los elementos con class="lenguaje" */
+.lenguaje {
+  color: #2a2a2a;
+  border: 2px dashed #9aa5b1;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+/* Clase adicional: solo el li que además tiene class="favorito" */
+
+.favorito {
+  color: #d64550;
+  border-color: #d64550;
+  font-weight: bold;
+}
+
+/* li:nth-child(1) {
+  color: #d64550;
+  border: 2px dashed #d64550;
+} */
+
+/* li:nth-child(2) {
+  color: rgb(42, 111, 151);
+  border: 2px dotted rgb(42, 111, 151);
+} */
+
+/* Bordes por lado independiente, distinto grosor y estilo en cada uno */
+
+/* li:nth-child(3) {
+  color: rgb(230, 126, 34);
+  background-color: rgb(255, 250, 230);
+  border-top: 2px solid rgb(230, 126, 34);
+  border-bottom: 4px double rgb(230, 126, 34);
+} */ 
