@@ -1,0 +1,72 @@
+/*Aplicamos el body */
+body{ 
+    font-family: Arial, sans-serif; /*Para realizar el cambio de fuente se cambiaria aqui por Georgia */
+    /*font-family: Georgia, serif;*/
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+h1{
+    margin: 0;
+}
+
+header .subtitulos{
+    font-style: italic;
+    color: #bbdefb;
+}
+
+/*Contenido principal*/
+main{
+    padding: 1rem 2rem;
+}
+
+h2{
+    color: #1565c0;
+    border-bottom: 2px solid #1565c0;
+}
+
+/*Listas */
+ul{
+    list-style-type: square;
+    /*list-style-type: circle;/* cambiado a circulos*/
+    /*padding-left: 25px;*/
+
+
+}
+
+li{
+    margin: 0.5rem 0;
+}
+
+/*Pie de página*/
+footer{
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+a.link{ /*CSS del link*/
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+section.tarjeta{ /*Seccion de tarjeta*/
+    border: 1px solid #333;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+
