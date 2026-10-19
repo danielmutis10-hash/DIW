@@ -1,0 +1,65 @@
+/*Tipografia y ;ayout básicos*/
+
+:root{
+    --primario: #0d47a1;
+    --acento: #c62828;
+}
+
+body{
+    font-family:Inter, system-ui, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+header#cabecera{
+    border-bottom: 2px solid var(--primario);
+}
+
+header#cabecera h1.titulo{
+    color: var(--primario);
+    margin-bottom: 25rem;
+}
+
+header#cabecera p.slogan{
+    color: #607d8b;
+}
+
+/* Componentes */
+
+main section.tarjeta#contenido{
+    background: #fff;
+    border: 1px solid #dfe3eb;
+    border-radius: 12px;
+    padding: 18px;
+    margin: 14px 0;
+}
+
+main section.tarjeta.destacado#intro{
+    background: #e8f0fe;
+}
+
+main section.tarjeta.destacado#intro a.boton[href="#intro"]{
+    display: inline-block;
+    padding:.5rem 1rem;
+    border: 1px solid var(--primario);
+    text-decoration: none;
+}
+
+main section.tarjeta#contenido ul li.item{
+    margin-bottom: .35rem;
+}
+
+main section.tarjeta#contenido ul li.item.importante{
+    color: var(--acento);
+    font-weight: 700;
+}
+
+/* Ejemplo de especifidad*/
+
+section.tarjeta .importante{
+    text-decoration: underline;
+}
+
+section#contenido .importante{
+    letter-spacing: .5px;
+}
